@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.logo img{
+    width: 50%;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+
+}
+.nav-list{
+    width: 50%;
+ 
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-list a:hover{
+    text-decoration: none;
+    color: lightgreen
+}
+.rightnav{
+  
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid gray;
+     border-radius:10px ;
+
+}
+.background{
+    background: rgba(0,0,0,0.7)url('img/bg.jpeg');
+    background-size:cover;
+    background-blend-mode: darken;
+
+
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+
+}
+.firsthalf{
+    width: 100%;
+     display: flex;
+    flex-direction: column ;
+    justify-content: center;
+
+}
+.secondhalf{
+    width: 70%;
+}
+
+.secondhalf img{
+    
+    width: 70%;
+    border: 4px solid whitesmoke;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    
+}
+.text-big{
+    font-size: 50px;
+}
+.text-small{
+    font-size: 20px;
+}
+.btn{
+   padding: 8px 20px;
+   margin: 7px 4px;
+   border: 2px solid whitesmoke;
+   border-radius: 8px;
+   background: none;
+   color: whitesmoke; 
+   cursor: pointer;
+}
+.btn-sm{
+    padding:  6px 10px;
+    vertical-align: middle;
+}
+.secright{
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+.thumbnail img{
+    width: 120%;
+}
+.paras{
+    padding: 0px 65px;
+}
+.secleft{
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row-reverse;
+}
